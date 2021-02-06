@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/care-instructions/static/css/main.fff6a692.chunk.css",
-    "main.js": "/care-instructions/static/js/main.ed060edf.chunk.js",
-    "main.js.map": "/care-instructions/static/js/main.ed060edf.chunk.js.map",
+    "main.css": "/care-instructions/static/css/main.8f6975c7.chunk.css",
+    "main.js": "/care-instructions/static/js/main.2bdcc399.chunk.js",
+    "main.js.map": "/care-instructions/static/js/main.2bdcc399.chunk.js.map",
     "runtime-main.js": "/care-instructions/static/js/runtime-main.2692423a.js",
     "runtime-main.js.map": "/care-instructions/static/js/runtime-main.2692423a.js.map",
-    "static/js/2.63fd3508.chunk.js": "/care-instructions/static/js/2.63fd3508.chunk.js",
-    "static/js/2.63fd3508.chunk.js.map": "/care-instructions/static/js/2.63fd3508.chunk.js.map",
+    "static/js/2.68b9a8bf.chunk.js": "/care-instructions/static/js/2.68b9a8bf.chunk.js",
+    "static/js/2.68b9a8bf.chunk.js.map": "/care-instructions/static/js/2.68b9a8bf.chunk.js.map",
     "index.html": "/care-instructions/index.html",
-    "precache-manifest.29b6baaf5a8bc3763256a9cec23b70a9.js": "/care-instructions/precache-manifest.29b6baaf5a8bc3763256a9cec23b70a9.js",
+    "precache-manifest.e393c0f3b0376497c52401cb01d2cd77.js": "/care-instructions/precache-manifest.e393c0f3b0376497c52401cb01d2cd77.js",
     "service-worker.js": "/care-instructions/service-worker.js",
-    "static/css/main.fff6a692.chunk.css.map": "/care-instructions/static/css/main.fff6a692.chunk.css.map",
-    "static/js/2.63fd3508.chunk.js.LICENSE.txt": "/care-instructions/static/js/2.63fd3508.chunk.js.LICENSE.txt"
+    "static/css/main.8f6975c7.chunk.css.map": "/care-instructions/static/css/main.8f6975c7.chunk.css.map",
+    "static/js/2.68b9a8bf.chunk.js.LICENSE.txt": "/care-instructions/static/js/2.68b9a8bf.chunk.js.LICENSE.txt",
+    "static/media/bleach.b5d24adb.svg": "/care-instructions/static/media/bleach.b5d24adb.svg",
+    "static/media/dry.c1e5ade9.svg": "/care-instructions/static/media/dry.c1e5ade9.svg",
+    "static/media/dryclean.797a2a64.svg": "/care-instructions/static/media/dryclean.797a2a64.svg",
+    "static/media/github.2b2f99a9.svg": "/care-instructions/static/media/github.2b2f99a9.svg",
+    "static/media/iron.823b9f6d.svg": "/care-instructions/static/media/iron.823b9f6d.svg",
+    "static/media/no-wring.83877fbc.svg": "/care-instructions/static/media/no-wring.83877fbc.svg",
+    "static/media/wash.a3e308c2.svg": "/care-instructions/static/media/wash.a3e308c2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2692423a.js",
-    "static/js/2.63fd3508.chunk.js",
-    "static/css/main.fff6a692.chunk.css",
-    "static/js/main.ed060edf.chunk.js"
+    "static/js/2.68b9a8bf.chunk.js",
+    "static/css/main.8f6975c7.chunk.css",
+    "static/js/main.2bdcc399.chunk.js"
   ]
 }
