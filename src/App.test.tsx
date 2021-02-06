@@ -1,9 +1,9 @@
-import React from 'react';
-import { mount } from 'enzyme';
-import App from './App';
+import React from "react";
+import { mount } from "enzyme";
+import App from "./App";
 
-test('App mounts', () => {
+test("App mounts", () => {
   expect(() => {
-    mount(<App />)
+    mount(<App />);
   }).not.toThrow();
 });

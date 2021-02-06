@@ -1,13 +1,13 @@
-import React, { FC, useState } from 'react';
-import { BleachOptions } from '../../types/options';
-import { useEffect } from 'react';
+import React, { FC, useState } from "react";
+import { BleachOptions } from "../../types/Options";
+import { useEffect } from "react";
 
 export const defaultBleachOptions: BleachOptions = {
-  bleachMethod: "ok"
-}
+  bleachMethod: "ok",
+};
 
 interface BleachFormProps {
-  onChange(bleachOptions: BleachOptions): void
+  onChange(bleachOptions: BleachOptions): void;
 }
 
 export const BleachForm: FC<BleachFormProps> = ({ onChange }) => {
@@ -17,20 +17,24 @@ export const BleachForm: FC<BleachFormProps> = ({ onChange }) => {
   const onMethodChange = (e: any) => {
     setOpt({
       ...opt,
-      bleachMethod: e.target.value
-    })
-  }
+      bleachMethod: e.target.value,
+    });
+  };
 
   return (
-    <form>
-      <label>
-        <span>Bleach Method: </span>
-        <select value={opt.bleachMethod} onChange={onMethodChange}>
-          <option value="ok">Any Bleach</option>
-          <option value="non-chlorine">Non-Chlorine Bleach Only</option>
-          <option value="no-bleach">Do Not Bleach</option>
-        </select>
-      </label>
-    </form>
+    <div>
+      <div className="field">
+        <label className="label">Bleach Method</label>
+        <div className="control">
+          <div className="select">
+            <select value={opt.bleachMethod} onChange={onMethodChange}>
+              <option value="ok">Any Bleach</option>
+              <option value="non-chlorine">Non-Chlorine Bleach Only</option>
+              <option value="no-bleach">Do Not Bleach</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
   );
-}
+};
